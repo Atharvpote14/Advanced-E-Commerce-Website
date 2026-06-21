@@ -1,0 +1,127 @@
+.page-banner {
+    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+    padding: 60px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-banner h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+}
+
+.page-banner p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.search-section {
+    background: #ffffff;
+    padding: 25px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.search-section .d-flex {
+    max-width: 600px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.search-section input {
+    border: none;
+    padding: 12px 20px;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.search-section input:focus {
+    outline: none;
+}
+
+.search-section button {
+    background: #2563EB;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+}
+
+.search-section button:hover {
+    background: #1D4ED8;
+}
+
+.product-list-section {
+    background: #F8FAFC;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-grid .card {
+    border-radius: 12px;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+}
+
+.product-grid .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid .card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.product-grid .card:hover .card-img-top {
+    transform: scale(1.03);
+}
+
+.product-grid h5 {
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.product-grid .btn-outline-primary {
+    border: 2px solid #2563EB;
+    color: #2563EB;
+    background: transparent;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.product-grid .btn-outline-primary:hover {
+    background: #2563EB;
+    border-color: #2563EB;
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .search-section .d-flex {
+        flex-direction: column;
+    }
+
+    .search-section button {
+        padding: 12px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .search-section input {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .product-grid .card-img-top {
+        height: 180px;
+    }
+}

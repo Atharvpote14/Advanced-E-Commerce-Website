@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #F8FAFC;
+    color: #4B5563;
+}
+
+.hero{
+    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1{
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.btn-custom{
+    background: white;
+    color: #2563EB;
+    border-radius: 30px;
+    padding: 14px 25px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-custom:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2{
+    color: #1F2937;
+    font-weight: 700;
+}
+
+.product-card{
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.product-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.price{
+    color: #C2410C;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn-cart{
+    width: 100%;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart:hover{
+    background: #1D4ED8;
+    transform: translateY(-2px);
+}
+
+.feature-box{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e5e7eb;
+}
+
+.feature-box h4{
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.feature-box p{
+    color: #4B5563;
+}
