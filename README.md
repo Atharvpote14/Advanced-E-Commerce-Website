@@ -6,7 +6,7 @@ ShopSphere is a multi-page electronics shopping website designed as a **college 
 ---
 
 ## ✨ Live Preview
-https://your-live-demo-link.com
+[https://your-live-demo-link.com](https://shop-sphere-e-commerce.netlify.app/)
 
 ---
 
